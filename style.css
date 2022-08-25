@@ -1,0 +1,57 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #3949AB;
+    padding: 10px 20px;
+    color: #fff;
+    z-index: 100;
+}
+header .title{
+    float: left;
+    width: 30%;
+}
+nav{
+    width: 70%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+#home, #about, #contact{
+    text-align: center;
+    position: relative;
+    font-size: 100px;
+    height: 100vh;
+    color: #fff;
+}
+#home div, #about div, #contact div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home{
+    background-color: #689F38;
+}
+#about{
+    background-color: #6D4C41;
+}
+#contact{
+    background-color: #455A64;
+}
+
+/* https://materialui.co/colors/ */
